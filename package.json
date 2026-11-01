@@ -1,0 +1,30 @@
+{
+  "name": "fleetco-it-helpdesk",
+  "version": "1.0.0",
+  "description": "FleetCo IT Helpdesk Bot - Full Stack AI Support System with TinyFish Vector Retrieval and Auto-Escalation",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev:server": "node src/server.js",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "test:api": "node test_apis.js"
+  },
+  "keywords": [
+    "helpdesk",
+    "tinyfish",
+    "rag",
+    "vector-retrieval",
+    "sqlite",
+    "express",
+    "react"
+  ],
+  "author": "FleetCo Engineering",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
